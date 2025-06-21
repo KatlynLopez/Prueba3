@@ -31,6 +31,4 @@ app.use("/api/login", login);
 app.use("/api/teacher", teacher);
 
  
-app.listen(port, () => {
-  console.log(`Example app listening on port ${port}`)
-});
+module.exports=app;
