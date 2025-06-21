@@ -5,8 +5,8 @@ const port = 5000
 app.use(express.json())
 app.use(express.urlencoded({extended:true}))
 
-const login = require("./src/routes/login")
-const teacher = require("./src/routes/teacher.routes")
+const login = require("../src/routes/login")
+const teacher = require("../src/routes/teacher.routes")
 
 const allowedOrigins = ['http://localhost:5173', 'http://localhost:5175'];
 
